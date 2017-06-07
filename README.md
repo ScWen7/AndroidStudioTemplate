@@ -1,2 +1,2 @@
 # AndroidStudioTemplate
-Template Use In AndroidStudio
+在AndroidStudio中使用的Template 代码模板
