@@ -25,9 +25,6 @@ import android.widget.Toast;
 
 
 
-import static com.vondear.tools.R.id.service;
-
-
 public class ${activityClass} extends Activity {
 
 
@@ -62,12 +59,11 @@ public class ${activityClass} extends Activity {
        
 
         
-            //bindViews();
-           // initListener();
-       
+        bindViews();
+        initListener();
       
-       // initView();
-        //initEvent();
+       initView();
+        initEvent();
     }
 
     private void initView() {
