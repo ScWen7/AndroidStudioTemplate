@@ -136,7 +136,7 @@
                 android:layout_height="45dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="21dp"
-                android:background="@drawable/bg_btn_login_selected"
+                android:background="@color/colorPrimary"
                 android:text="@string/login"
                 android:gravity="center"
                 android:textColor="@color/white"
