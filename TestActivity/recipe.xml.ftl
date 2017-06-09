@@ -10,6 +10,9 @@
     <instantiate from="root/res/layout/activity_template.xml.ftl"
     		to="${escapeXmlAttribute(resOut)}/layout/${simpleLayoutName}.xml" /> //布局文件生成到Res的layout文件夹中，生成的名字也是由用户输入
 
+
+	 <instantiate from="root/src/app_package/Util.java.ftl"
+         	to="${escapeXmlAttribute(srcOut)}/utils/Util.java" /> 
     <open file="${escapeXmlAttribute(resOut)}/layout/${simpleLayoutName}.xml" /> //最后打开这个布局文件
 
     <open file="${escapeXmlAttribute(srcOut)}/${activity}.java" /> //最后打开这个Activity
