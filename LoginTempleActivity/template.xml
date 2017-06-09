@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="6"
+    name="登录界面"
+    description="创建一个登录界面"
+    requireAppTheme="true"
+    minApi="8"
+    minBuildApi="14">
+
+    <dependency name="android-support-v4" revision="8" />
+
+    <category value="Activity" />
+    <formfactor value="Mobile" />
+
+    <parameter
+        id="activityClass"
+        name="Activity名称"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="LoginActivity"
+        help="需要创建的Activity的类名" />
+
+    <parameter
+        id="layoutName"
+        name="布局名称"
+        type="string"
+        constraints="layout|unique|nonempty"
+        suggest="${activityToLayout(activityClass)}"
+        default="activity_login"
+        help="创建布局文件名称" />
+           <parameter
+        id="packageName"
+        name="包名"
+        type="string"
+        constraints="package"
+        default="com.mycompany.myapp" />
+
+
+   <parameter 
+    id="isRegister" 
+    name="是否含有注册选项"
+     type="boolean" 
+     default="true" 
+     help="是否添加一个注册按钮在界面上" />
+
+   
+    <parameter 
+    id="isForgetPassword" 
+    name="是否含有忘记密码"
+     type="boolean" 
+     default="true" 
+     help="是否添加一个忘记密码按钮在界面上" />
+     <parameter 
+    id="isContactService" 
+    name="是否含有联系客服"
+     type="boolean" 
+     default="true" 
+     help="是否添加一个忘记密码按钮在界面上" />
+     <parameter 
+    id="isAboutUs" 
+    name="是否含有关于我们"
+     type="boolean" 
+     default="true" 
+     help="是否添加一个关于我们按钮在界面上" />
+
+       <parameter 
+    id="isUseButterKnife" 
+    name="项目中是否使用了ButterKnife"
+     type="boolean" 
+     default="false" 
+     help="项目中是否使用了ButterKnife" />
+
+ 
+    <thumbs>
+        <thumb>template_login.png</thumb>
+    </thumbs>
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
