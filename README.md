@@ -11,4 +11,4 @@
 
 
 
-![](http://oqe10cpgp.bkt.clouddn.com/image/studiotemplate/template_login.png)
+![](http://oqe10cpgp.bkt.clouddn.com/image/studiotemplate/template_login2.png)
