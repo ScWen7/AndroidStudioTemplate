@@ -9,10 +9,5 @@
 
 简单的登录界面
 
-
-<<<<<<< HEAD
-
 ![](http://oqe10cpgp.bkt.clouddn.com/image/studiotemplate/template_login2.png)
 =======
-![](http://oqe10cpgp.bkt.clouddn.com/image/studiotemplate/template_login.png)
->>>>>>> 800dd8ffcc54f8d65ec4b7a9cb6608d3d085ea06
